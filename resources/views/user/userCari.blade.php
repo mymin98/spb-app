@@ -1,13 +1,16 @@
 @extends('adminlte::page')
 
-@section('title', 'User Dashboard')
+@section('title', 'Carian')
 
 @section('content_header')
-    <h1>User Dashboard</h1>
+    <h1>Carian Buku</h1>
 @stop
 
 @section('content')
-    <p>Hi User, welcome to SPB!</p>
+    <p>Sila semak maklumat buku.</p>
+    
+    
+
 @stop
 
 @section('css')

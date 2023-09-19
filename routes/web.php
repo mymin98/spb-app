@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/userdashboard', function(){
-    return view('userDashboard');
+    return view('user/userDashboard');
+});
+
+Route::get('/usercari', function(){
+    return view('user/userCari');
 });
