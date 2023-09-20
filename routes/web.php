@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Buku;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,5 +23,9 @@ Route::get('/userdashboard', function(){
 });
 
 Route::get('/usercari', function(){
-    return view('user/userCari');
+    return view('user/userCari',[ "buku" => Buku::all()]);
+});
+
+Route::get('/login', function(){
+    return view('login');
 });
