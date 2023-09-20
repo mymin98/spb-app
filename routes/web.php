@@ -19,13 +19,13 @@ Route::get('/', function () {
 });
 
 Route::get('/userdashboard', function(){
-    return view('user/userDashboard');
+    return view('user.dashboard.index');
 });
 
 Route::get('/usercari', function(){
-    return view('user/userCari',[ "buku" => Buku::all()]);
+    return view('user.carian.index',[ "buku" => Buku::all()]);
 });
 
 Route::get('/login', function(){
-    return view('login');
+    return view('login.index');
 });

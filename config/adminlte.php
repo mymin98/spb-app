@@ -300,6 +300,12 @@ return [
             'type'         => 'fullscreen-widget',
             'topnav_right' => true,
         ],
+        [
+            'text'         => 'Log Keluar',
+            'url'          => '/login',
+            'topnav_right' => true,
+        ],
+
 
         // Sidebar items:
         [
