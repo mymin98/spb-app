@@ -306,7 +306,6 @@ return [
             'topnav_right' => true,
         ],
 
-
         // Sidebar items:
         [
             'header' => 'HALAMAN'
