@@ -313,18 +313,18 @@ return [
         ],
         [
             'text' => 'Halaman Utama',
-            'url'  => '/userdashboard',  
+            'url'  => '/dashboard',  
             'icon' => 'far fa-fw fa-file',
         ],
         [
             'text'        => 'Carian Buku',
-            'url'         => '/usercari',
+            'url'         => '/carian',
             'icon'        => 'far fa-fw fa-file',
         ],
         ['header' => 'TETAPAN AKAUN'],
         [
             'text' => 'Profil Akaun',
-            'url'  => 'userprofile',
+            'url'  => '/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
         

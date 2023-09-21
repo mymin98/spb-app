@@ -6,13 +6,13 @@ class Buku
 {
     private static $buku = [
         [
-            "judul"     =>  "One Piece",
-            "slug"      =>  "one-piece",
+            "judul"     =>  "Pada Suatu Hari Vol.1",
+            "slug"      =>  "pada-suatu-hari-vol.1",
             "butiran"   =>  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, cumque.",
         ],
         [
-            "judul"     =>  "Naruto",
-            "slug"      =>  "naruto",
+            "judul"     =>  "Pada Suatu Hari Vol.2",
+            "slug"      =>  "pada-suatu-hari-vol.2",
             "butiran"   =>  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, cumque.", 
         ],    
     ];

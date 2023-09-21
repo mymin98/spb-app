@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\Buku;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CarianController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,14 +21,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/userdashboard', function(){
-    return view('user.dashboard.index');
-});
+Route::get('/dashboard', [DashboardController::class, 'index']);
 
-Route::get('/usercari', function(){
-    return view('user.carian.index',[ "buku" => Buku::all()]);
-});
+Route::get('/carian', [CarianController::class, 'index']);
 
-Route::get('/login', function(){
-    return view('login.index');
-});
+Route::get('/login', [LoginController::class , 'index']);
+
+Route::get('/register', [RegisterController::class, 'index']);
+
+Route::get('/profile', [ProfileController::class, 'index']);
