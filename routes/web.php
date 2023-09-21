@@ -29,5 +29,6 @@ Route::get('/carian', [CarianController::class, 'index']);
 Route::get('/login', [LoginController::class , 'index']);
 
 Route::get('/register', [RegisterController::class, 'index']);
+Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/profile', [ProfileController::class, 'index']);

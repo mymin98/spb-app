@@ -20,18 +20,39 @@
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">Register</h3></div>
                                     <div class="card-body">
-                                        <form>
+                                        <form action="/register" method="POST">
+                                            @csrf
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                                                <label for="inputEmail">Email address</label>
+                                                <input class="form-control" id="nama" type="text" placeholder="nama" />
+                                                <label for="nama">Nama Pegawai</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
-                                                <label for="inputPassword">Password</label>
+                                                <input class="form-control" id="noKP" type="number" placeholder="noKP" />
+                                                <label for="noKP">No. KP</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="gelaran" type="text" placeholder="gelaran" />
+                                                <label for="gelaran">Gelaran Jawatan</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="bahagianID" type="text" placeholder="bahagianID" />
+                                                <label for="bahagianID">bahagian ID</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="namaBahagian" type="text" placeholder="namaBahagian" />
+                                                <label for="namaBahagian">namaBahagian</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="staffID" type="text" placeholder="staffID" />
+                                                <label for="staffID">staffID</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="katalaluan" type="text" placeholder="katalaluan" />
+                                                <label for="katalaluan">katalaluan</label>
                                             </div>
 
                                             <div class="d-flex align-items-center justify-content-center mt-4 mb-0">
-                                                <a class="btn btn-primary" href="index.html">Register</a>
+                                                <button class="btn btn-primary" type="submit">Register</button>
                                             </div>
                                         </form>
                                     </div>
