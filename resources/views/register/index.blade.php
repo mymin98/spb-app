@@ -23,32 +23,36 @@
                                         <form action="/register" method="POST">
                                             @csrf
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="nama" type="text" placeholder="nama" />
-                                                <label for="nama">Nama Pegawai</label>
+                                                <input class="form-control" id="pengguna_nama" type="text" placeholder="pengguna_nama" />
+                                                <label for="pengguna_nama">Nama Pegawai</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="noKP" type="number" placeholder="noKP" />
-                                                <label for="noKP">No. KP</label>
+                                                <input class="form-control" id="pengguna_noKP" type="number" placeholder="pengguna_noKP" />
+                                                <label for="pengguna_noKP">No. KP</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="gelaran" type="text" placeholder="gelaran" />
-                                                <label for="gelaran">Gelaran Jawatan</label>
+                                                <input class="form-control" id="pengguna_gelaranJawatan" type="text" placeholder="pengguna_gelaranJawatan" />
+                                                <label for="pengguna_gelaranJawatan">Gelaran Jawatan</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="bahagianID" type="text" placeholder="bahagianID" />
-                                                <label for="bahagianID">bahagian ID</label>
+                                                <input class="form-control" id="pengguna_bahagianID" type="text" placeholder="pengguna_bahagianID" />
+                                                <label for="pengguna_bahagianID">bahagian ID</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="namaBahagian" type="text" placeholder="namaBahagian" />
-                                                <label for="namaBahagian">namaBahagian</label>
+                                                <input class="form-control" id="pengguna_namaBahagian" type="text" placeholder="pengguna_namaBahagian" />
+                                                <label for="pengguna_namaBahagian">namaBahagian</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="staffID" type="text" placeholder="staffID" />
-                                                <label for="staffID">staffID</label>
+                                                <input class="form-control" id="pengguna_katalaluan" type="text" placeholder="pengguna_katalaluan" />
+                                                <label for="pengguna_katalaluan">katalaluan</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="katalaluan" type="text" placeholder="katalaluan" />
-                                                <label for="katalaluan">katalaluan</label>
+                                                <input class="form-control" id="pengguna_IDPerananRef" type="text" placeholder="pengguna_IDPerananRef" />
+                                                <label for="pengguna_IDPerananRef">ID Peranan Ref</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="pengguna_staffID" type="text" placeholder="pengguna_staffID" />
+                                                <label for="pengguna_staffID">Staff ID</label>
                                             </div>
 
                                             <div class="d-flex align-items-center justify-content-center mt-4 mb-0">
